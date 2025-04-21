@@ -6,20 +6,20 @@ import AspectRatio from "@mui/joy/AspectRatio";
 
 const activeUsers = [
   {
-    productName: "Doner",
-    imagePath: "/img/donerlavash.webp",
+    productName: "Eldor",
+    imagePath: "/img/eldor.webp",
   },
   {
-    productName: "Pide",
-    imagePath: "/img/pide3.webp",
+    productName: "C.Ronaldo",
+    imagePath: "/img/cristiano.webp",
   },
   {
-    productName: "Iskender",
-    imagePath: "/img/iskender.webp",
+    productName: "Khabib",
+    imagePath: "/img/habib.webp",
   },
   {
-    productName: "Adana",
-    imagePath: "/img/adana1.webp",
+    productName: "A.Jakhongir",
+    imagePath: "/img/jahongir.webp",
   },
 ];
 

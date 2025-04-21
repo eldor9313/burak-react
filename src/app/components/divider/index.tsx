@@ -5,6 +5,7 @@ export interface IDividerProps {
   width?: string;
   height?: string;
   bg?: string;
+  className?: string;
 }
 
 const DividerComponent = styled.span<IDividerProps>`

@@ -10,20 +10,24 @@ import Divider from "../../components/divider";
 
 const newDishes = [
   {
-    productName: "Doner",
-    imagePath: "/img/donerlavash.webp",
+    productName: "Pirzola",
+    imagePath: "/img/pirzola.webp",
+    price: "$35",
   },
   {
-    productName: "Pide",
-    imagePath: "/img/pide3.webp",
+    productName: "Lahmacun",
+    imagePath: "/img/lahmajun.webp",
+    price: "$17",
   },
   {
-    productName: "Iskender",
-    imagePath: "/img/iskender.webp",
+    productName: "Sarma",
+    imagePath: "/img/sarma.webp",
+    price: "$12",
   },
   {
-    productName: "Adana",
-    imagePath: "/img/adana1.webp",
+    productName: "Baklava",
+    imagePath: "/img/baklava.webp",
+    price: "$9",
   },
 ];
 
@@ -52,8 +56,15 @@ export default function NewDishes() {
                             <Typography className={"title"}>
                               {ele.productName}
                             </Typography>
-                            <Divider width="2" height="24" bg="#d9d9d9" />
-                            <Typography className={"price"}>$12</Typography>
+                            <Divider
+                              width="2"
+                              height="24"
+                              bg="#d9d9d9"
+                              className="divider"
+                            />
+                            <Typography className={"price"}>
+                              {ele.price}
+                            </Typography>
                           </Stack>
                           <Stack>
                             <Typography className={"views"}>
