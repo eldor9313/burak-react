@@ -291,9 +291,21 @@
 }
 
 .homepage .cards-frame .card {
-  width: 305px;
-  height: 274px;
+  width: 302px;
+  height: 340px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  /* width: 305px;
+  height: 301px;
   cursor: pointer;
+  border-radius: 12px;
+  background: #fff; */
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px; */
 }
 
 .homepage .cards-frame .member-nickname {

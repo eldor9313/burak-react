@@ -17,6 +17,12 @@ export default function ProductsPage() {
         <Route path={`${products.path}`}>
           <Products />
         </Route>
+        <Route path={`${products.path}/:productId`}>
+          <ChosenProduct />
+        </Route>
+        <Route path={`${products.path}`}>
+          <Products></Products>
+        </Route>
       </Switch>
     </div>
   );
