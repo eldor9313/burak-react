@@ -35,7 +35,11 @@
   align-items: center;
   color: #343434;
   justify-content: space-between;
+<<<<<<< HEAD
   font-family: "Dancing Script";
+=======
+  font-family: "Roboto Serif";
+>>>>>>> ee79406 (feat: publish products sectional component)
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -91,7 +95,11 @@
   border-radius: 18px;
   background: #343434;
   color: #d7b586;
+<<<<<<< HEAD
   font-family: "Quicksand";
+=======
+  font-family: "Dancing Script";
+>>>>>>> ee79406 (feat: publish products sectional component)
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -409,12 +417,17 @@
 }
 
 .products-page .products .address .title {
+<<<<<<< HEAD
   font-family: "Dancing Script";
+=======
+  font-family: "Roboto Serif";
+>>>>>>> ee79406 (feat: publish products sectional component)
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
+<<<<<<< HEAD
 
 /** ChosenProduct **/
 .products-page .chosen-product {
@@ -570,3 +583,5 @@
   line-height: 43px;
   margin-top: 40px;
 }
+=======
+>>>>>>> ee79406 (feat: publish products sectional component)

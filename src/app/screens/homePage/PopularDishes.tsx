@@ -16,7 +16,7 @@ const list = [
     text: "Tasty doner in soft lavash.",
   },
   {
-    productName: "Pide",
+    productName: "Turkish Pide",
     imagePath: "/img/pide3.webp",
     text: "Turkish pizza, crispy and delicious.",
   },
@@ -49,16 +49,8 @@ export default function PopularDishes() {
                       </CardCover>
                       <CardCover className={"card-cover"} />
                       <CardContent sx={{ justifyContent: "flex-end" }}>
-                        <Stack
-                          flexDirection={"row"}
-                          justifyContent={"space-between"}
-                        >
-                          <Typography
-                            level="h2"
-                            fontSize="lg"
-                            textColor="#fff"
-                            mb={1}
-                          >
+                        <Stack flexDirection={"row"} justifyContent={"space-between"}>
+                          <Typography level="h2" fontSize="lg" textColor="#fff" mb={1}>
                             {ele.productName}
                           </Typography>
                           <Typography
@@ -70,9 +62,7 @@ export default function PopularDishes() {
                             }}
                           >
                             20
-                            <VisibilityIcon
-                              sx={{ fontSize: 25, marginLeft: "5px" }}
-                            />
+                            <VisibilityIcon sx={{ fontSize: 25, marginLeft: "5px" }} />
                           </Typography>
                         </Stack>
                       </CardContent>
@@ -86,10 +76,7 @@ export default function PopularDishes() {
                           height: "60px",
                         }}
                       >
-                        <Typography
-                          startDecorator={<DescriptionOutlinedIcon />}
-                          textColor="neutral.300"
-                        >
+                        <Typography startDecorator={<DescriptionOutlinedIcon />} textColor="neutral.300">
                           {ele.text}
                         </Typography>
                       </CardOverflow>
