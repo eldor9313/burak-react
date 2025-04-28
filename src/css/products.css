@@ -35,7 +35,7 @@
   align-items: center;
   color: #343434;
   justify-content: space-between;
-  font-family: "Roboto Serif";
+  font-family: "Dancing Script";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -91,7 +91,7 @@
   border-radius: 18px;
   background: #343434;
   color: #d7b586;
-  font-family: "Dancing Script";
+  font-family: "Quicksand";
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -409,7 +409,7 @@
 }
 
 .products-page .products .address .title {
-  font-family: "Roboto Serif";
+  font-family: "Dancing Script";
   font-size: 36px;
   font-style: normal;
   font-weight: 700;

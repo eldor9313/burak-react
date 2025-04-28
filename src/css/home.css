@@ -73,7 +73,7 @@
 
 .homepage .popular-dishes-frame .popular-section .category-title {
   text-align: center;
-  font-family: "Roboto Serif";
+  font-family: "Dancing Script";
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -275,8 +275,7 @@
   height: 31.712px;
   flex-direction: column;
   justify-content: center;
-
-  font-family: "Roboto Serif";
+  font-family: "Dancing Script";
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
