@@ -206,7 +206,7 @@
   margin-top: 15px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   overflow-y: scroll;
 }
 
@@ -335,7 +335,7 @@
   color: #000000;
 }
 
-.order-page .total-price-box .box-total .data-compl {
+.order-page .total-price-box .data-compl {
   font-family: "Commissioner";
   font-style: normal;
   font-weight: 400;
