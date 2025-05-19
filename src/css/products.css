@@ -83,7 +83,7 @@
 
 .products-page .products .search-btn {
   position: relative;
-  width: 106px;
+  width: 146px;
   height: 32px;
   color: #d7b586;
   display: flex;
@@ -93,7 +93,6 @@
   background: #343434;
   color: #d7b586;
   font-family: "Quicksand";
-  font-family: "Dancing Script";
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -183,6 +182,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
 }
 
 .products-page .products .product-card .product-img {
