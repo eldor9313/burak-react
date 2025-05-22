@@ -82,6 +82,7 @@ export default function PopularDishes() {
                         }}
                       >
                         <Typography
+                          className={"card-desc"}
                           startDecorator={<DescriptionOutlinedIcon />}
                           textColor="neutral.300"
                         >

@@ -190,6 +190,7 @@
   width: 273px;
   height: 275px;
   background-size: cover;
+  background-position: center;
   border-radius: 0px 50px 0px 0px;
 }
 
@@ -281,7 +282,7 @@
   transition: opacity 0.5s ease;
   border-radius: 10px;
   border: 1px solid #e3c08d;
-  background: rgba(187, 47, 200, 0.78);
+  background: #343434;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;

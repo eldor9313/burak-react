@@ -94,6 +94,19 @@
   min-height: 430px;
   min-width: 300px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.homepage .popular-dishes-frame .cards-frame .card .card-desc {
+  max-height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: white;
 }
 
 .homepage .popular-dishes-frame .cards-frame .card .card-cover {
@@ -197,14 +210,16 @@
 }
 
 .homepage .new-products-frame .product-detail .title {
-  width: 65px;
+  width: 70%;
   font-weight: 500;
 }
 
 .homepage .new-products-frame .product-detail .price {
-  margin-left: 35px;
+  margin-left: 12px;
   width: 20px;
   font-weight: 500;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .homepage .new-products-frame .product-detail .divider {
