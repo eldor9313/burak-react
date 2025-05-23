@@ -328,12 +328,12 @@
 }
 
 .basket-order .price {
-  width: 200px;
+  width: 220px;
   display: flex;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 30px;
   color: #000000;
 }
